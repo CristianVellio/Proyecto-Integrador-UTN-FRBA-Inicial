@@ -1,4 +1,4 @@
-# Trabajo Practico Integrado UTN-BA
+# Trabajo Practico Integrado UTN-FRBA
 ## Modulo Inicial Frontend
 
 Stack Utilizado:
