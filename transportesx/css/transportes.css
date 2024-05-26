@@ -162,3 +162,35 @@ nav ul li a.activo {
   color: #666;
   font-size: 10px;
 }
+
+.servicio {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px 0;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.servicio .info h4 {
+  color: #2e64a1;
+  font-weight: 500;
+  font-style: italic;
+  border-bottom: 1px solid #2e64a1;
+  padding-bottom: 10px;
+}
+
+.servicio .info p {
+  font-size: 13px;
+}
+
+.servicio img {
+  border-radius: 13px;
+  display: block;
+  max-width: 225px;
+}
+
+.servicio:nth-child(even) {
+  flex-direction: row-reverse;
+}
