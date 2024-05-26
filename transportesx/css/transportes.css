@@ -6,6 +6,11 @@
   margin: 0;
 }
 
+h2 {
+  color: #2e64a1;
+  font-weight: 400;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -72,4 +77,42 @@ nav ul li a.activo {
 .holder {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.bienvenidos {
+  width: 75%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.testimonios {
+  width: 25%;
+}
+
+.columnas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bienvenidos p {
+  font-size: 20px;
+}
+
+.testimonio {
+  background-color: #ccc;
+  padding: 16px;
+}
+
+.testimonio .cita {
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: 12px 0;
+}
+
+.testimonio .autor {
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  margin: 12px 0;
 }
