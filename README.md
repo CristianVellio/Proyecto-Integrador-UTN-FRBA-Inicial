@@ -13,7 +13,7 @@ Stack Utilizado:
 
 ## Link al proyecto
 
-[demo](https://#)
+[demo](https://transportex-x-utn-frba.netlify.app/)
 
 ## Imagenes
 [Mobile](#)
