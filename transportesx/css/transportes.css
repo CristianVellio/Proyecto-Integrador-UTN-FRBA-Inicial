@@ -194,3 +194,60 @@ nav ul li a.activo {
 .servicio:nth-child(even) {
   flex-direction: row-reverse;
 }
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 576px) {
+  .holder {
+    padding: 0 10px;
+  }
+
+  .columnas {
+    flex-direction: column;
+  }
+
+  .bienvenidos,
+  .testimonios {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  .holder {
+    padding: 0 20px;
+  }
+
+  .bienvenidos {
+    width: 65%;
+  }
+
+  .testimonios {
+    width: 35%;
+  }
+}
+
+/* Estilos para dispositivos grandes */
+@media (min-width: 769px) {
+  .holder {
+    padding: 0 30px;
+  }
+
+  .bienvenidos {
+    width: 75%;
+  }
+
+  .testimonios {
+    width: 25%;
+  }
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.holder > .responsive-img {
+  width: 100%;
+  overflow: hidden;
+}
