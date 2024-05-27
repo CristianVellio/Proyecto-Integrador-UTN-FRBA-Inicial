@@ -1,4 +1,4 @@
-# Trabajo Practico Integrado UTN-FRBA
+# Trabajo Practico Integrador UTN-FRBA
 Proyecto individual crando un sitio web responsive de seis secciones utilizando HTML; CSS; Bootstrap and JS.
 
 ## Modulo Inicial Frontend
